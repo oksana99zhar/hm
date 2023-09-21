@@ -1,0 +1,40 @@
+.figure {
+    width: 300px;
+    height: 150px;
+    margin: 10px 10px 20px 30px;
+    padding: 10px 20px 10px 20px;
+    border: dotted 3px gray;
+    background-color: aquamarine;
+}
+  
+/*.figure {
+    box-sizing: content-box;
+    
+  }
+*/
+.figure {
+    box-sizing: border-box;
+  }
+.box {
+    width: 350px;
+    height: 220px;
+    padding: 15px 10px 20px 10px;
+    margin-bottom: 30px;
+    border: dashed 2px red;
+    background-color: green;
+}
+.img-float {
+    float: left;
+    width: 250px;
+    margin: 0 20px 20px 0;
+}
+.img-floattwo {
+    float:right;
+    width: 200px;
+    margin: 10px 0px 10px 10px
+
+}
+.text {
+    width: 800px;
+    text-align: justify;
+}
