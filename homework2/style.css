@@ -1,0 +1,55 @@
+blockquote p {
+    color: green;
+}
+
+blockquote p {
+padding: 15px;
+background: #eee;
+border-radius: 5px;
+}
+
+blockquote p ::before{
+    content: '\201C';
+}
+.list a[href^="https://"] {
+    color: red;
+             }
+
+.list + p {
+    font-size: 26px;
+}
+
+#greycol {
+    color: grey;
+}
+.yellow {
+    color: yellow;
+}
+.list>li:last-child a {
+    background-color: green;
+}
+.text-box div p {
+    color: red;
+}
+.text-box p:nth-last-child(2) {
+    color: green;
+}
+.text-box h3:first-child {
+    color: pink;
+}
+
+
+.bg-box{
+    width: 900px;
+    height: 700px;
+    background: green;
+    margin: 0 auto;
+    background-clip: border-box;
+    background-image: url(pole-zelen-trava-dom-derevya.jpg), url(green-png-44873.png), url(lamp-png-34914.png), url(58eb07b830eab15b56162788.png), url(3F3F.webp);
+    background-position: center, bottom, top, right, left; 
+    background-repeat: no-repeat, repeat-x, repeat-x, repeat-y, repeat-y; 
+    background-attachment: scroll, scroll, scroll, scroll, scroll; 
+    background-size: 500px, 200px, 50px, 50px, 50px;
+
+}
+
