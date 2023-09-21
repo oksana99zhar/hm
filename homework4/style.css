@@ -1,0 +1,160 @@
+.card_box {
+    width: 600px;
+    height: 600px;
+    margin: 10px 10px 20px 30px;
+    padding: 10px 20px 10px 20px;
+    background: #0d5825;
+}
+blockquote q {
+    position: relative;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    top: 30px;
+    left: 50px;
+    color: white;
+}
+blockquote q::before {
+    content: '\201C';
+}
+blockquote q::after {
+    content: '\201D';
+}
+blockquote p {
+    position: relative;
+    font-size: 25px;
+    text-align: center;
+    top: 35px;
+    font-style: italic;
+    color: white;
+}
+.cards img {
+    width: 150px;
+    background-color: transparent;
+}
+ #card1 { 
+    position: absolute;
+    left: 190px;
+    top: 230px;
+    transform: translate(-30px, -20px) rotate(-20deg);
+
+ } 
+
+ #card2 { 
+    position: relative;
+    left: 197px;
+    top: 150px;
+    transform: translate(-30px, -15px) rotate(-10deg);
+    
+ }
+ #card3 { 
+    position: absolute;
+    left: 300px;
+    top: 210px;
+    transform: translate(-30px, -2px) rotate(4deg);
+
+} 
+#card1:hover{
+    top: 210px;
+}
+#card2:hover{
+    top: 130px;
+}
+#card3:hover{
+    top: 190px;
+}
+.square_box {
+    position: relative;
+    height: 250px;
+    width: 300px;
+ }
+.square_box div {
+    height:150px ;
+    width: 150px;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    text-align: right;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.square1 {
+   margin-left: 10px;
+    position: absolute;
+    background: #eb7171;
+    z-index: 1;
+}
+.square2 {
+    top: 80px;
+    left: 80px;
+    position: absolute;
+    background: #50e2b1;
+}
+.square3 {
+    top: 40px;
+  left: 40px;
+    position: absolute;
+    z-index: 3;
+    background: #62a1e9;
+}
+
+.menu {
+    position: relative;
+    left: -280px;
+    background-color: gray;
+    height: 450px;
+    width: 300px;
+    padding: 20px 0 0 10px;
+    box-sizing: border-box;
+    transition: all 0.5s ease;
+}
+.list_menu li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.list_menu li {
+    margin: 20px 0px 30px 20px;
+}
+.list_menu li a {
+    padding-left: 2rem;
+    list-style-type: none;
+}
+.list_menu li::before {
+    content: '';
+    position: relative;
+    display: inline-block;
+    left: 35px;
+    width: 7px;
+    height: 7px;
+    border: 2px dashed black;
+    background-color: yellow;
+    margin-right: 15px;
+    transform: translate(0,-50%) scaleY(1.5) rotate(45deg);
+}
+
+.menu:hover{
+    left: 0;
+    transition: all 0.5s ease;
+}
+.list_menu a:hover {
+    color: gold;
+    transition: 0.5s;
+}
+.menu #menu-here {
+    float: right;
+    text-align: center;
+    text-transform: uppercase;
+    color: whitesmoke;
+    writing-mode: vertical-lr;
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+.menu:hover #menu-here{
+    opacity: 0;
+}
+.square_animation {
+    width: 100px;
+    height: 100px;
+}
